@@ -15,6 +15,21 @@ public:
     explicit Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_horizontalSliderRed_valueChanged(int value);
+
+    void on_dial_valueChanged(int value);
+
+    void on_radioButtonDec_clicked();
+
+    void on_radioButtonBin_clicked();
+
+    void on_radioButtonOct_clicked();
+
+    void on_radioButtonHex_clicked();
+
+    void on_pushButton_clicked();
+
 private:
     Ui::Widget *ui;
 };
