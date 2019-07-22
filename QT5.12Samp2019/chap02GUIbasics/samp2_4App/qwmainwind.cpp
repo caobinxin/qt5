@@ -6,7 +6,7 @@
 #include    <QTextStream>
 #include    <QFontDialog>
 #include    <QCoreApplication>
-#include    <Qlabel>
+#include    <QLabel>
 #include    <QTextCharFormat>
 
 

@@ -1,19 +1,18 @@
 <RCC>
     <qresource prefix="/images">
-        <file>file.png</file>
-        <file>paste.png</file>
-        <file>copy.png</file>
-        <file>open.png</file>
-        <file>file1.png</file>
-        <file>vip.png</file>
-        <file>cut.png</file>
-        <file>bold.png</file>
-        <file>display.png</file>
-        <file>clear.png</file>
-        <file>Typeface.png</file>
-        <file>Underline.png</file>
-        <file>Italics.png</file>
-        <file>exit.png</file>
-        <file>daohang.png</file>
+        <file>430.bmp</file>
+        <file>120.bmp</file>
+        <file>103.bmp</file>
+        <file>paste.bmp</file>
+        <file>cut.bmp</file>
+        <file>exit.bmp</file>
+        <file>open3.bmp</file>
+        <file>new2.bmp</file>
+        <file>20.ico</file>
+        <file>WORDUNDR.BMP</file>
+        <file>UNDRLN.BMP</file>
+        <file>ITL.BMP</file>
+        <file>DBLUNDR.BMP</file>
+        <file>BLD.BMP</file>
     </qresource>
 </RCC>
