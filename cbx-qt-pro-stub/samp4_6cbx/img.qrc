@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>城市建筑.png</file>
+        <file>城市.png</file>
+        <file>所在城市-01-01.png</file>
+    </qresource>
+</RCC>
