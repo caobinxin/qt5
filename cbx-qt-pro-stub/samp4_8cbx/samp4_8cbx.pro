@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-07-21T17:52:50
+# Project created by QtCreator 2019-07-25T06:37:20
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = samp4_7cbx
+TARGET = samp4_8cbx
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -40,4 +40,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    icon.qrc
+    icom.qrc

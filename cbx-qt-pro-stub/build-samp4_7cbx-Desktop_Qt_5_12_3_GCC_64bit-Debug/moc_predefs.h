@@ -24,6 +24,7 @@
 #define __DBL_DENORM_MIN__ double(4.94065645841246544176568792868221372e-324L)
 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
 #define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define __GCC_IEC_559 2
 #define __FLT32X_DECIMAL_DIG__ 17
 #define __FLT_EVAL_METHOD__ 0
 #define __unix__ 1
@@ -54,7 +55,6 @@
 #define __linux 1
 #define __DEC32_EPSILON__ 1E-6DF
 #define __FLT_EVAL_METHOD_TS_18661_3__ 0
-#define __GCC_IEC_559 2
 #define __unix 1
 #define __UINT32_MAX__ 0xffffffffU
 #define __GXX_EXPERIMENTAL_CXX0X__ 1

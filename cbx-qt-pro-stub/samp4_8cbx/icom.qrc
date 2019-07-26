@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>imgs/浮动窗口.png</file>
+        <file>imgs/可见.png</file>
+        <file>imgs/类型-遍历节点.png</file>
+        <file>imgs/高度.png</file>
+        <file>imgs/退出(2).png</file>
+        <file>imgs/删除节点.png</file>
+        <file>imgs/适合宽度.png</file>
+        <file>imgs/实际大小-经过.png</file>
+        <file>imgs/缩小.png</file>
+        <file>imgs/放大.png</file>
+        <file>imgs/添加文件.png</file>
+        <file>imgs/添加目录.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>节点-根节点-展开-背景1.png</file>
+        <file>节点-根节点-展开.png</file>
+        <file>节点.png</file>
+    </qresource>
+</RCC>

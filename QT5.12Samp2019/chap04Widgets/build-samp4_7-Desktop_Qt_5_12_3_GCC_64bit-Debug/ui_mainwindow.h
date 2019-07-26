@@ -91,7 +91,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(565, 332);
+        MainWindow->resize(582, 340);
         QFont font;
         font.setPointSize(10);
         MainWindow->setFont(font);
@@ -154,7 +154,7 @@ public:
         toolBox->setMaximumSize(QSize(300, 16777215));
         page = new QWidget();
         page->setObjectName(QString::fromUtf8("page"));
-        page->setGeometry(QRect(0, 0, 150, 179));
+        page->setGeometry(QRect(0, 0, 138, 167));
         gridLayout = new QGridLayout(page);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
@@ -202,7 +202,7 @@ public:
         toolBox->addItem(page, icon7, QString::fromUtf8("QListWidget\346\223\215\344\275\234"));
         page_2 = new QWidget();
         page_2->setObjectName(QString::fromUtf8("page_2"));
-        page_2->setGeometry(QRect(0, 0, 150, 179));
+        page_2->setGeometry(QRect(0, 0, 150, 164));
         verticalLayout_4 = new QVBoxLayout(page_2);
         verticalLayout_4->setSpacing(6);
         verticalLayout_4->setContentsMargins(11, 11, 11, 11);
@@ -240,7 +240,7 @@ public:
         toolBox->addItem(page_2, icon8, QString::fromUtf8("QTreeWidget\346\223\215\344\275\234"));
         page_3 = new QWidget();
         page_3->setObjectName(QString::fromUtf8("page_3"));
-        page_3->setGeometry(QRect(0, 0, 150, 179));
+        page_3->setGeometry(QRect(0, 0, 150, 164));
         QIcon icon9;
         icon9.addFile(QString::fromUtf8(":/images/icons/412.bmp"), QSize(), QIcon::Normal, QIcon::Off);
         toolBox->addItem(page_3, icon9, QString::fromUtf8("QTableWidget\346\223\215\344\275\234"));
