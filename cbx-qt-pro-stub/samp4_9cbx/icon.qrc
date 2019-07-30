@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>nv3_3.png</file>
+        <file>男.png</file>
+        <file>女.png</file>
+    </qresource>
+</RCC>
