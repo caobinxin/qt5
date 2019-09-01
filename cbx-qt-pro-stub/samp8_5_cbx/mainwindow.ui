@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>575</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actEdit_Front"/>
+   <addaction name="actEdit_Back"/>
+   <addaction name="actEdit_Delete"/>
+   <addaction name="actRestore"/>
+   <addaction name="actGroup"/>
+   <addaction name="actGroupBreak"/>
+   <addaction name="actRotateLeft"/>
+   <addaction name="actRotateRight"/>
+   <addaction name="actZoomIn"/>
+   <addaction name="actZoomOut"/>
+   <addaction name="actQuit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actItem_Rect"/>
+   <addaction name="actItem_Ellipse"/>
+   <addaction name="actItem_Line"/>
+   <addaction name="actItem_Polygon"/>
+   <addaction name="actItem_Circle"/>
+   <addaction name="actItem_Triangle"/>
+   <addaction name="actItem_Text"/>
+   <addaction name="actItem_Pixmap"/>
+  </widget>
+  <action name="actItem_Rect">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/RECTANGL.BMP</normaloff>:/icon/imag/RECTANGL.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>矩形</string>
+   </property>
+  </action>
+  <action name="actItem_Ellipse">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/ELLIPSE.BMP</normaloff>:/icon/imag/ELLIPSE.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>椭圆</string>
+   </property>
+  </action>
+  <action name="actItem_Line">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/LINE.BMP</normaloff>:/icon/imag/LINE.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>直线</string>
+   </property>
+  </action>
+  <action name="actEdit_Delete">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/DELETE.BMP</normaloff>:/icon/imag/DELETE.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/108.bmp</normaloff>:/icon/imag/108.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actItem_Pixmap">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/824.bmp</normaloff>:/icon/imag/824.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>图片</string>
+   </property>
+  </action>
+  <action name="actItem_Text">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/800.bmp</normaloff>:/icon/imag/800.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>文字</string>
+   </property>
+  </action>
+  <action name="actEdit_Front">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/522.bmp</normaloff>:/icon/imag/522.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>前置</string>
+   </property>
+  </action>
+  <action name="actEdit_Back">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/524.bmp</normaloff>:/icon/imag/524.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>后置</string>
+   </property>
+  </action>
+  <action name="actItem_Polygon">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/FREEFORM.BMP</normaloff>:/icon/imag/FREEFORM.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>梯形</string>
+   </property>
+  </action>
+  <action name="actZoomIn">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/zoomin.png</normaloff>:/icon/imag/zoomin.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actZoomOut">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/zoomout.png</normaloff>:/icon/imag/zoomout.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actRotateLeft">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/rotateleft.png</normaloff>:/icon/imag/rotateleft.png</iconset>
+   </property>
+   <property name="text">
+    <string>左旋转</string>
+   </property>
+  </action>
+  <action name="actRotateRight">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/rotateright.png</normaloff>:/icon/imag/rotateright.png</iconset>
+   </property>
+   <property name="text">
+    <string>右旋转</string>
+   </property>
+  </action>
+  <action name="actRestore">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/132.bmp</normaloff>:/icon/imag/132.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>恢复</string>
+   </property>
+  </action>
+  <action name="actGroup">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/528.bmp</normaloff>:/icon/imag/528.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>组合</string>
+   </property>
+  </action>
+  <action name="actGroupBreak">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/526.bmp</normaloff>:/icon/imag/526.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>打散</string>
+   </property>
+  </action>
+  <action name="actItem_Circle">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/ARC.BMP</normaloff>:/icon/imag/ARC.BMP</iconset>
+   </property>
+   <property name="text">
+    <string>圆形</string>
+   </property>
+  </action>
+  <action name="actItem_Triangle">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/imag/Icon1242.ico</normaloff>:/icon/imag/Icon1242.ico</iconset>
+   </property>
+   <property name="text">
+    <string>三角形</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qwgraphicsview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

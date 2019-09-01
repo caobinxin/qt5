@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1009</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>271</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="4" column="1">
+          <widget class="QComboBox" name="cBoxTheme">
+           <item>
+            <property name="text">
+             <string>ThemeQt</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemePrimaryColors</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeDigia</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeStoneMoss</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeArmyBlue</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeRetro</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeEbony</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeIsabelle</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ThemeUserDefined</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cBoxPreVisualAngle">
+           <item>
+            <property name="text">
+             <string>CameraPresetFrontLow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetFront</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetFrontHigh</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetLeftLow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetLeft</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetLeftHigh</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CameraPresetRightLow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>新建项目</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>新建项目</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>新建项目</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>选择模式:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>字体大小:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>垂直旋转:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSlider" name="hSliderHRotation">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSlider" name="hSliderZoom">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSlider" name="hSliderVRotation">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>棒图样式:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QComboBox" name="cBoxSelectMode">
+           <item>
+            <property name="text">
+             <string>SelectionNone</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionItem</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionRow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionItemAndRow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionColumn</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionItemAndColumn</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionRowAndColumn</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionItemRowAndColumn</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>SelectionSlice</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>水平旋转:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>缩放:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QSpinBox" name="sBoxTypefaceSize"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>主题:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>预设视角:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QComboBox" name="cBoxBarStyle">
+           <item>
+            <property name="text">
+             <string>MeshUserDefined</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshBar</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshCube</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshPyramid</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshCone</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshCylinder</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshBevelBar</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshBevelCube</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshSphere</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshMinimal</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshArrow</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MeshPoint</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="pBtnItemColor">
+        <property name="text">
+         <string>项的颜色</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QCheckBox" name="ckBoxDisplayBackground">
+           <property name="text">
+            <string>显示背景</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="ckBoxDisplayBackgroudGrid">
+           <property name="text">
+            <string>显示背景网格</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QCheckBox" name="ckBoxSmoothingEffect">
+           <property name="text">
+            <string>光滑效果</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QCheckBox" name="ckBoxDisplayReflection">
+           <property name="text">
+            <string>显示倒影</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QCheckBox" name="ckBoxValueAxisReverse">
+           <property name="text">
+            <string>数值坐标轴反向</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QCheckBox" name="ckBoxItemLabVisible">
+           <property name="text">
+            <string>项的标签可见</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QCheckBox" name="ckBoxAxisTitleVisible">
+           <property name="text">
+            <string>坐标轴标题可见</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QCheckBox" name="ckBoxAxisLabBackgroundVisible">
+           <property name="text">
+            <string>坐标轴标签背景可见</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1009</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

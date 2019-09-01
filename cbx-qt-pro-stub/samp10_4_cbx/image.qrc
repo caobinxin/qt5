@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>mountain.png</file>
+        <file>sea.png</file>
+        <file>seagray.png</file>
+        <file>china.png</file>
+        <file>甘肃高程图.jpg</file>
+    </qresource>
+</RCC>

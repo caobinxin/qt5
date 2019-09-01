@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QDlgLogin</class>
+ <widget class="QDialog" name="QDlgLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1167</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-160</x>
+     <y>-120</y>
+     <width>1951</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="src.qrc">:/png/login.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>630</y>
+     <width>489</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="text">
+     <string>用户名：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editUser"/>
+   <widget class="QLabel" name="label_3">
+    <property name="text">
+     <string>密码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editPSWD"/>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="text">
+     <string>保存用户名</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>630</y>
+     <width>168</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btnOk">
+      <property name="text">
+       <string>确定</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnclose">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnclose</sender>
+   <signal>clicked()</signal>
+   <receiver>QDlgLogin</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>943</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1049</x>
+     <y>641</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -171,7 +171,7 @@ void MainWindow::on_currentRowChanged(const QModelIndex &current, const QModelIn
 
 void MainWindow::on_actOpenDB_triggered()
 {//打开数据表
-    QString aFile=QFileDialog::getOpenFileName(this,"选择数据库文件","",
+    QString aFile=QFileDialog::getOpenFileName(this,"选择数据库文件","/sdcard",
                              "SQL Lite数据库(*.db *.db3)");
     if (aFile.isEmpty())  //选择SQL Lite数据库文件
        return;

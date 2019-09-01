@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>imag/528.bmp</file>
+        <file>imag/526.bmp</file>
+        <file>imag/524.bmp</file>
+        <file>imag/522.bmp</file>
+        <file>imag/428.bmp</file>
+        <file>426.bmp</file>
+        <file>imag/424.bmp</file>
+        <file>imag/422.bmp</file>
+        <file>imag/420.bmp</file>
+        <file>imag/132.bmp</file>
+        <file>imag/128.bmp</file>
+        <file>imag/108.bmp</file>
+        <file>imag/824.bmp</file>
+        <file>imag/818.bmp</file>
+        <file>imag/800.bmp</file>
+        <file>imag/718.bmp</file>
+        <file>imag/zoomout.png</file>
+        <file>imag/zoomin.png</file>
+        <file>imag/rotateright.png</file>
+        <file>imag/rotateleft.png</file>
+        <file>imag/fileprint.png</file>
+        <file>imag/08.JPG</file>
+        <file>imag/018.JPG</file>
+        <file>imag/281.JPG</file>
+        <file>imag/194.JPG</file>
+        <file>imag/Icon1242.ico</file>
+        <file>imag/hmsetup.ico</file>
+        <file>imag/UNGROUP.BMP</file>
+        <file>imag/RECTANGL.BMP</file>
+        <file>imag/MCR.BMP</file>
+        <file>imag/LINE.BMP</file>
+        <file>imag/FREEFORM.BMP</file>
+        <file>imag/ELLIPSE.BMP</file>
+        <file>imag/DELETE.BMP</file>
+        <file>imag/BUTTON.BMP</file>
+        <file>imag/ARC.BMP</file>
+    </qresource>
+</RCC>

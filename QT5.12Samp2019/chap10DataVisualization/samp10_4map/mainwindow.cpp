@@ -39,7 +39,9 @@ void MainWindow::iniGraph3D()
 //创建数据代理
 //    QImage heightMapImage(":/map/mountain.png");
 //    QImage heightMapImage(":/map/seagray.png");
-    QImage heightMapImage(":/map/sea.png");
+//    QImage heightMapImage(":/map/sea.png");
+//    QImage heightMapImage(":/map/china.png");
+    QImage heightMapImage(":/map/甘肃高程图.jpg");
     proxy = new QHeightMapSurfaceDataProxy(heightMapImage);
     proxy->setValueRanges(-5000, 5000, -5000, 5000);
 

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/back">
+        <file>背景.jpg</file>
+        <file>车.jpg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>退出(2).png</file>
+        <file>字体.png</file>
+        <file>粘贴.png</file>
+        <file>复制.png</file>
+        <file>打开信息.png</file>
+        <file>剪切.png</file>
+        <file>撤销.png</file>
+        <file>重做.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>矩形图填充.jpg</file>
+    </qresource>
+</RCC>
