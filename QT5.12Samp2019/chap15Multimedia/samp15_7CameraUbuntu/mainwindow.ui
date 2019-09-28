@@ -72,7 +72,7 @@
           <string>视频保存文件</string>
          </property>
          <property name="icon">
-          <iconset resource="res.qrc">
+          <iconset>
            <normaloff>:/images/images/104.bmp</normaloff>:/images/images/104.bmp</iconset>
          </property>
          <property name="flat">
@@ -201,7 +201,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/video_chat.ico</normaloff>:/images/images/video_chat.ico</iconset>
    </property>
    <property name="text">
@@ -216,7 +216,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/remove_user.ico</normaloff>:/images/images/remove_user.ico</iconset>
    </property>
    <property name="text">
@@ -231,7 +231,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/5.ico</normaloff>:/images/images/5.ico</iconset>
    </property>
    <property name="text">
@@ -246,7 +246,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/file_pictures.ico</normaloff>:/images/images/file_pictures.ico</iconset>
    </property>
    <property name="text">
@@ -258,7 +258,7 @@
   </action>
   <action name="actQuit">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/exit_24.ico</normaloff>:/images/images/exit_24.ico</iconset>
    </property>
    <property name="text">
@@ -273,7 +273,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/Shut Down.ico</normaloff>:/images/images/Shut Down.ico</iconset>
    </property>
    <property name="text">
@@ -289,13 +289,11 @@
   <customwidget>
    <class>QCameraViewfinder</class>
    <extends>QWidget</extends>
-   <header>qcameraviewfinder.h</header>
+   <header location="global">qcameraviewfinder.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="res.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>actQuit</sender>

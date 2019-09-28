@@ -51,7 +51,7 @@ void QDiceThread::run()
         if (!m_paused)
         {
 //            mutex.lock();
-            QMutexLocker    Locker(&mutex);
+            QMutexLocker    Locker(&mutex); // Locker 的作用域只在　这个大括号内
             m_diceValue=qrand(); //获取随机数
             m_diceValue=(m_diceValue % 6)+1;
             m_seq++;
